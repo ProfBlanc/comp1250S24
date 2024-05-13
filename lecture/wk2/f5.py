@@ -11,7 +11,7 @@ print(0x1 + 0b01111)
 # three examples above result in sum
 
 # + any operand not numerical
-# only supports same data types for non numerical operands
+# only supports same data types for non-numerical operands
 # print("The perimeter of the two values is perimeter" + perimeter)
 
 print(f"The perimeter of the two values is {'perimeter'}")

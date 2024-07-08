@@ -1,0 +1,57 @@
+Module
+    a python file
+        no input() statement
+            input statement block execution of script
+    Why module:
+        a tool/library that programmer can use to execute functionaly
+            a file dedicate to a theme or process
+
+
+Store
+    charcters/values         variables
+        name
+        hours of operation
+        year operating (since)
+        products that store sells
+    processes               functions
+        ordery in store
+        order online
+
+Functions: a process. A process has an outcome is returned
+
+
+**********************
+
+RegEX
+
+Regular Expressions
+
+Advanced Searching
+
+Symbols that represent ways to search a text
+
+Text: text to search
+Pattern: a pattern that outlines how to search
+Searching method:
+    searching: searches entire string           returns a match object
+    matching: searching from start of string    returns a match object
+    findingall                                  returns a list
+    replace                                     returns new string with text replacements made
+
+
+
+^       start of string
+$       text of string
+
+.       matches any character
++       one or many times
+?       zero or one time
+*       zero or many times
+
+[]      literal the characters
+        [$+]
+        [a-d]
+
+{N}     exactly N times
+{N,}    min N times
+{N,M}   between N and M times

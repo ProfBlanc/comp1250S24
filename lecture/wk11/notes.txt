@@ -1,0 +1,43 @@
+File Manipulation
+    CRUD to generate persistent data
+
+    C   create/create new
+    R   read/open
+    U   update/edit
+    D   delete/remove
+
+
+Student Directory Listing program
+Add students to a course (year, semester, insistution)
+Students will have: first name, lastname, student identifier
+
+We, the user, will be able to
+    Create
+        a course
+            attached to an institution, year, semester
+        a student
+            attached to a course
+    Read/View
+        all courses of a semester
+        all students of a course
+    Update/Modify
+        student data
+        school name
+    Delete
+        student data
+
+
+sys
+    installation of the python language
+    backend libraries
+    interact with services (task manager) where the python language is hosted
+
+os
+    interacts with Platform where python is installed (Window, Max, Linux, etc)
+    CRUD operations
+
+
+R       read        get file contents. file needs to exists
+A       append      add contents to end of file. file does NOT need to exist
+W       write       overwrite content. delete file contents if file exists. if file does
+                    not exist, auto create file write content to file
